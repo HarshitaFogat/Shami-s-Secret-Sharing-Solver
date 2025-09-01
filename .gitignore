@@ -39,3 +39,37 @@
 
 # debug information files
 *.dwo
+
+
+# Build directories
+build/
+bin/
+obj/
+*.o
+*.obj
+*.exe
+*.out
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Compiled binaries
+shamir_solver
+shamir_solver.exe
+
+# Dependencies
+node_modules/
+__pycache__/
+*.pyc
+
+# Test outputs
+test_results/
+*.log
